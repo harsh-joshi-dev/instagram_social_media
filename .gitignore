@@ -1,0 +1,129 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.cer
+*.dSYM.zip
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+*.bundle
+*.apk
+*.jprof
+*.prof
+*.lock
+*.hprof
+
+# CocoaPods
+/ios/Pods/
+
+Podfile.lock
+/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+# testing
+/coverage
+
+# android/app/src/main/
+android/app/release/
+/android/app/release/
+ios/assets
+/ios/assets
+# /android/app/UAT
+# android/app/UAT
+
+# android/app/src/main/res/raw
+# /android/app/src/main/
+
+/src/blinc-lib/
+/src/blinc-lib
+src/blinc-lib
+src/blinc-lib/
+# /.env
+# .env
+# android/app/google-services.json
+# /android/app/google-services.json
+
+# ios/AppStore_com.blinc.beta.mobileprovision
+#         ios/Blinc.app.dSYM.zip
+#         ios/Gemfile
+#         ios/MHGAMLBZ3Q.cer
+#         ios/Blinc.ipa
+       
+
+#         /ios/AppStore_com.blinc.beta.mobileprovision
+#         /ios/Blinc.app.dSYM.zip
+#         /ios/Gemfile
+#         /ios/MHGAMLBZ3Q.cer
+#         /ios/Blinc.ipa
+
+#         android/gradle.properties
+#         android/app/google-services.json
+#         .env
+      
+#        /android/gradle.properties
+#         /android/app/google-services.json
+#         .env
+
+#         /android/gradle.properties
+#         /android/app/google-services.json
+#         .env
+      
+
+
+yarn.lock
+ios/Podfile.lock
+
+# debug.log
+README.md
+
